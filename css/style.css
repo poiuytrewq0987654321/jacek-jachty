@@ -1,0 +1,17 @@
+.jachty {
+    text-align: center;
+    height:30vh;
+    background-color: red;
+    border-style: solid;
+    border-width: 10px;
+}
+
+.info {
+    text-align: center;
+}
+
+.main-row {
+    border-style: solid;
+    border-width: 4px;
+    border-color: lightcoral;
+}

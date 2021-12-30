@@ -1,0 +1,28 @@
+[
+    {
+      "obraz": "../images/1.jpg",
+      "id": 1,
+      "stocznia": "Jeanneau",
+      "model": "NC 14",
+      "kategoria": "jacht motorowy",
+      "lokalizacja": "Murter",
+      "dlugosc": 14,
+      "szerokosc": 4.1,
+      "rok_produkcji": 2017,
+      "liczba_kabin": 2,
+      "moc_silnika": "370 KM"
+    },
+    {
+      "obraz": "../images/2.jpg",
+      "id": 2,
+      "stocznia": "test",
+      "model": "NC 14",
+      "kategoria": "jacht motorowy",
+      "lokalizacja": "test",
+      "dlugosc": 14,
+      "szerokosc": 4.1,
+      "rok_produkcji": 2017,
+      "liczba_kabin": 2,
+      "moc_silnika": "370 KM"
+    }
+  ]
