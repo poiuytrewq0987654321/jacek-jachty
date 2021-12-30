@@ -1,6 +1,6 @@
 [
     {
-      "obraz": "../images/1.jpg",
+      "obraz": "<a href='images/1.jpg'>link do zdjęcia</a>",
       "id": 1,
       "stocznia": "Jeanneau",
       "model": "NC 14",
@@ -13,7 +13,7 @@
       "moc_silnika": "370 KM"
     },
     {
-      "obraz": "../images/2.jpg",
+      "obraz": "<a href='images/2.jpg'>link do zdjęcia</a>",
       "id": 2,
       "stocznia": "test",
       "model": "NC 14",

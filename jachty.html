@@ -31,11 +31,9 @@
         </div>
       </nav>
 
-      <div class="container">
-        <div class="row">
-            <div class="col-sm">
-        <table class="table-striped">
-        <thead>
+      <div  class="table-responsive">
+        <table class="table">
+        <thead class="thead-dark">
             <tr>
                 <th data-field="obraz">link do obrazu</th>
                 <th data-field="id">ID</th>
@@ -52,8 +50,32 @@
         </thead>
     </table>
 </div>
+
+<br><br>
+<form onsubmit="wyslijMaila()">
+    <p>W celu dokonania rezerwacji, wypełnij poniższy formularz:</p>
+    <div class="form-group">
+      <label for="exampleFormControlInput1">Adres mailowy</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" >
     </div>
+    <div class="form-group">
+      <label for="exampleFormControlSelect1">Numer jachtu</label>
+      <select class="form-control" id="exampleFormControlSelect1" >
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+      </select>
     </div>
+    <div class="form-group">
+      <label for="exampleFormControlTextarea1">Dodatkowe pytania</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div><br>
+    <button type="submit" class="btn btn-primary">Wyślij</button>
+  </form>
+
+
 
     <script src=
 "https://code.jquery.com/jquery-3.3.1.min.js">
