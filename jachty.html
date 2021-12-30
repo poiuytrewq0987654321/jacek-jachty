@@ -52,15 +52,15 @@
 </div>
 
 <br><br>
-<form onsubmit="wyslijMaila()">
+<form onsubmit="wyslijMaila()" action="https://formspree.io/f/mgedvkbq" method="POST">
     <p>W celu dokonania rezerwacji, wypełnij poniższy formularz:</p>
     <div class="form-group">
       <label for="exampleFormControlInput1">Adres mailowy</label>
-      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" >
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" name="_replyto">
     </div>
     <div class="form-group">
       <label for="exampleFormControlSelect1">Numer jachtu</label>
-      <select class="form-control" id="exampleFormControlSelect1" >
+      <select class="form-control" id="exampleFormControlSelect1" name="jacht">
         <option>1</option>
         <option>2</option>
         <option>3</option>
@@ -70,7 +70,7 @@
     </div>
     <div class="form-group">
       <label for="exampleFormControlTextarea1">Dodatkowe pytania</label>
-      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="message"></textarea>
     </div><br>
     <button type="submit" class="btn btn-primary">Wyślij</button>
   </form>
